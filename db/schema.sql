@@ -3,7 +3,7 @@ CREATE DATABASE IF NOT EXISTS pizza_db;
 USE pizza_db;
 
 CREATE TABLE pizza_orders (
-    id INT NOT NULL AUTO INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
     pizza_name VARCHAR(50),
     crust VARCHAR(20),
     veggie BOOLEAN,
